@@ -61,8 +61,8 @@ header .bg-img {
 }
 
 header .bg-img .bg1 {
-  -webkit-transform: skewY(3deg);
-          transform: skewY(3deg);
+  -webkit-transform: none;
+          transform: none;
   background-image: url(./assets/IMG_7706_2.jpg);
   background-attachment: fixed;
   background-position: 50%;
@@ -138,7 +138,7 @@ header .bg-img div:nth-child(5) i {
           animation: arrow infinite 3s;
 }
 
-@-webkit-keyframes "arrow" {
+@-webkit-keyframes arrow {
   0% {
     top: 4px;
   }
@@ -159,7 +159,7 @@ header .bg-img div:nth-child(5) i {
   }
 }
 
-@keyframes "arrow" {
+@keyframes arrow {
   0% {
     top: 4px;
   }
